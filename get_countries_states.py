@@ -100,6 +100,18 @@ def loc_to_state(locstring):
         return None
     return match
 
+def loc_is_usa(locstring):
+    if not isinstance(locstring, str):
+        return False
+    if loc_to_state(locstring) is not None:
+        return True
+        
+    locstring = re.sub(r'\.', '', locstring) # remove dots in `D.C.` or `U.S.`
+    locstring = re.sub(' +', ' ', locstring) # remove multiple spaces
+
+    if any(us in locstring.split() for us in ['USA', 'US']):
+        return True
+    return 'united states' in locstring.lower() or '🇺🇸'in locstring
            
 
 if __name__ == '__main__':
