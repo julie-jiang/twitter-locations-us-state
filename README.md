@@ -10,14 +10,19 @@ However, we do provide a helper function ``loc_is_usa`` that detects whether a l
 This code was developed for the paper Jiang et al., 2020. [Political polarization drives online conversations about COVID‐19 in the United States](https://onlinelibrary.wiley.com/doi/full/10.1002/hbe2.202)
 
 # Usage
-``python get_countries_states.py "Los Angeles, CA"``
+```
+python get_countries_states.py "Los Angeles, CA"
+```
+
 Which would print:
-``US State for Los Angeles, CA is CA``
+
+```US State for Los Angeles, CA is CA
+```
 
 # Citation
 If you find this code useful, please cite:
 
-Jiang, J, Chen, E, Yan, S, Lerman, K, Ferrara, E. Political polarization drives online conversations about COVID‐19 in the United States. Hum Behavior & Emerging Technologies 2020; 2: 200– 211. https://doi.org/10.1002/hbe2.202
+Jiang, J, Chen, E, Yan, S, Lerman, K, Ferrara, E. Political polarization drives online conversations about COVID‐19 in the United States. Human Behavior & Emerging Technologies 2020; 2: 200– 211. https://doi.org/10.1002/hbe2.202
 
 # How we did it
 * We match state names and state abbreviations
