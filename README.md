@@ -25,6 +25,8 @@ If you find this code useful, please cite:
 
 Jiang, J, Chen, E, Yan, S, Lerman, K, Ferrara, E. Political polarization drives online conversations about COVID‐19 in the United States. Human Behavior & Emerging Technologies 2020; 2: 200– 211. https://doi.org/10.1002/hbe2.202
 
+If you use this code in conjunction with Twitter data, please remain compliant with Twitter's [Terms of Service](https://developer.twitter.com/en/developer-terms/agreement-and-policy). 
+
 # How we did it
 * We match state names and state abbreviations
 * We also document the 25 most populous cities and match them to their states
