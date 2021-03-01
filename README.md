@@ -16,7 +16,8 @@ python get_countries_states.py "Los Angeles, CA"
 
 Which would print:
 
-```US State for Los Angeles, CA is CA
+```
+US State for Los Angeles, CA is CA
 ```
 
 # Citation
